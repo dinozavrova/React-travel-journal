@@ -1,0 +1,95 @@
+:root {
+  --red: #f55a5a;
+  --header-text-color: #ffffff;
+  --link-grey: #918e9b;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 550px;
+  font-family: "Inter", sans-serif;
+  text-align: left;
+}
+
+.header-inner {
+  background-color: var(--red);
+  width: 550px;
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+  color: var(--header-text-color);
+}
+
+.header-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.entry-inner {
+  display: flex;
+  flex-direction: row;
+  gap: 19px;
+  margin: 45px 40px 36px;
+}
+
+.entry-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.entry_img {
+  width: 125px;
+  height: 168px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.entry-info_map {
+  display: flex;
+}
+
+.marker {
+  width: 10px;
+  object-fit: cover;
+  margin-right: 4px;
+}
+
+.entry-info_countryName {
+  margin-right: 12px;
+  font-size: 10.24px;
+  letter-spacing: 17%;
+  
+}
+
+.entry-info_link {
+  color: var(--link-grey);
+  text-decoration: underline;
+  font-size: 10.24px;
+}
+
+.entry-info_namePlace {
+  font-size: 25px;
+  font-style: bold;
+  margin-top: 4px;
+}
+
+.entry-info_dates {
+  font-size: 10.24px;
+  font-style: bold;
+  margin-top: 17px;
+}
+
+.entry-info_text {
+  font-size: 10.24px;
+
+  line-height: 150%;
+  margin-top: 9px;
+}
