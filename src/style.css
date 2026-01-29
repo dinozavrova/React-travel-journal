@@ -22,13 +22,14 @@ body {
 
 .header-inner {
   background-color: var(--red);
-  width: 100%;
+  width: 100vw;
   height: 55px;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 7px;
   color: var(--header-text-color);
+  margin-left: calc(-50vw + 50%);
 }
 
 .header-icon {

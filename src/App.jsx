@@ -6,13 +6,16 @@ import data from "./data";
 export default function App() {
   const entryElements = data.map((entry) => (
     <Entry
-      img={entry.img}
+      key={entry.id}
+      {...entry}
+
+      /*тоже самое что и выше
       country={entry.country}
       title={entry.title}
       googleMapsLink={entry.googleMapsLink}
       dates={entry.dates}
       text={entry.text}
-      id={entry.id}
+      id={entry.id}*/
     />
   ));
 
