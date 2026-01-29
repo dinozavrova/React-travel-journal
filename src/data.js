@@ -1,42 +1,73 @@
-import japanImg from "./assets/YAponiya.jpg";
-import sydneyImg from "./assets/sydney-opera-house.jpg";
-import norwayImg from "./assets/Geirangerfjord.jpg";
+import shulga from "./assets/shulga.jpg";
+import salt from "./assets/salt.jpg";
+import dune from "./assets/dune.jpg";
+import perto from "./assets/petrozavodsk.jpg";
+import kazan from "./assets/kazan.jpg";
 
 export default [
   {
     id: 1,
     img: {
-      src: japanImg,
-      alt: "Mount Fuji",
+      src: shulga,
+      alt: "Пещера Шульган-Таш (Капова)",
     },
-    title: "Mount Fuji",
-    country: "JAPAN",
-    googleMapsLink: "https://maps.app.goo.gl/6RLYZDuuuqJ7kNGZ9",
-    dates: "12 Jan, 2021 - 24 Jan, 2021",
-    text: "Mount Fuji is the tallest mountain in Japan, standing at 3,776 meters (12,380 feet). Mount Fuji is the single most popular tourist site in Japan, for both Japanese and foreign tourists.",
+    title: "Пещера Шульган-Таш (Капова)",
+    country: "РОССИЯ, Уфа",
+    googleMapsLink:
+      "https://yandex.ru/maps/org/muzey_istorii_issledovaniy_shulgan_tash/214076913207/?ll=56.997472%2C53.121630&z=11",
+    dates: "Лето 2011",
+    text: "Ка́пова пеще́ра — карстовая пещера на территории Бурзянского района республики Башкортостан, Россия. Находится на реке Белой в одноимённом заповеднике «Шульган-Таш». Пещера наиболее известна благодаря наскальным рисункам первобытного человека эпохи палеолита.",
   },
+
   {
     id: 2,
     img: {
-      src: sydneyImg,
-      alt: "Sydney Opera House",
+      src: salt,
+      alt: "Соль-Илецк",
     },
-    title: "Sydney Opera House",
-    country: "AUSTRALIA",
-    googleMapsLink: "https://maps.app.goo.gl/Zr17SCrsJeCEKMd36",
-    dates: "27 May, 2021 - 8 Jun, 2021",
-    text: "The Sydney Opera House is a multi-venue performing arts centre in Sydney. Located on the banks of the Sydney Harbour, it is often regarded as one of the 20th century's most famous and distinctive buildings.",
+    title: "Соль-Илецк",
+    country: "РОССИЯ, Соль-Илецк ",
+    googleMapsLink:
+      "https://yandex.ru/maps/geo/sol_iletsk/53088339/?ll=55.001239%2C51.154512&z=13",
+    text: "Курортный город в Оренбургской области, знаменитый своими солеными озерами, уникальными по составу, подобными Мертвому морю, и лечебными грязями. Это популярное место летнего отдыха (июль-август) с жарким климатом, известное как «арбузная столица России». Главная достопримечательность — озеро Развал. ",
   },
   {
     id: 3,
     img: {
-      src: norwayImg,
-      alt: "Geirangerfjord",
+      src: dune,
+      alt: "Дюна Пилата",
     },
-    title: "Geirangerfjord",
-    country: "NORWAY",
-    googleMapsLink: "https://maps.app.goo.gl/fhkJuBhmFDv47tiB7",
-    dates: "01 Oct, 2021 - 18 Nov, 2021",
-    text: "The Geiranger Fjord is a fjord in the Sunnmøre region of Møre og Romsdal county, Norway. It is located entirely in the Stranda Municipality.",
+    title: "Дюна Пилата",
+    country: "ФРАНЦИЯ, Аркашон",
+    googleMapsLink:
+      "https://yandex.ru/maps/org/dyuna_pila/209403487155/?ll=-1.214523%2C44.590532&z=15",
+    dates: "как-то в 2019",
+    text: "Крупнейшая песчаная дюна в Европе, расположенная во Франции (Аквитания) на побережье Атлантического океана. Ее высота достигает более 100-110 метров, длина — около 2,7 км, а ширина — около 500 метров. Живая дюна постоянно перемещается на сушу, засыпая лес. ",
+  },
+  {
+    id: 4,
+    img: {
+      src: kazan,
+      alt: "Казань",
+    },
+    title: "Казань",
+    country: "РОССИЯ, Республика Татарстан",
+    googleMapsLink:
+      "https://yandex.ru/maps/43/kazan/?ll=49.106414%2C55.796129&z=12",
+    dates: "02.01.2023 - 05.01.2023",
+    text: "Город на юго-западе России, расположенный на берегах Волги и Казанки. В столице полуавтономной Республики Татарстан находится древний кремль – крепость, известная своими музеями и святыми местами. Башня Сююмбике, синие и золотые купола Благовещенского собора и яркая джума-мечеть Кул-Шариф – одни из самых интересных достопримечательностей кремля. ",
+  },
+  {
+    id: 5,
+    img: {
+      src: perto,
+      alt: "Петрозаводск",
+    },
+    title: "Петрозаводск",
+    country: "РОССИЯ, Республика Карелия",
+    googleMapsLink:
+      "https://yandex.ru/maps/geo/petrozavodsk/53149438/?ll=34.419197%2C61.786555&z=11",
+    dates: "5.04.2025-07.04.2025",
+    text: "Город республиканского значения на северо-западе России на берегу Онежского озера.",
   },
 ];

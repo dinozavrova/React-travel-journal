@@ -1,5 +1,5 @@
 :root {
-  --red: #f55a5a;
+  --red: #f1829d;
   --header-text-color: #ffffff;
   --link-grey: #918e9b;
   --mobile-max-width: 550px;
@@ -30,6 +30,8 @@ body {
   gap: 7px;
   color: var(--header-text-color);
   margin-left: calc(-50vw + 50%);
+  position: sticky;
+  top: 0px;
 }
 
 .header-icon {

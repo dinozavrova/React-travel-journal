@@ -17,7 +17,7 @@ export default function Entry(props) {
               target="_blank"
               rel="noopener noreferrer"
             >
-              View on Google Maps
+              а на карте это где?
             </a>
           </div>
           <h1 className="entry-info_namePlace">{props.title}</h1>

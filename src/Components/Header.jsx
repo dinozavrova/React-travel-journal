@@ -5,7 +5,7 @@ export default function Header() {
     <>
       <header className="header-inner">
         <img className="header-icon" src={globeimg} alt="global travel" />
-        <h3 className="header-title">my travel journal.</h3>
+        <h3 className="header-title">а где я была вообще?</h3>
       </header>
     </>
   );
