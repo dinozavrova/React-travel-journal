@@ -1,3 +1,5 @@
+import pinimg from "../assets/location-pin.png";
+
 export default function Entry(props) {
   //console.log(props);
   return (
@@ -7,11 +9,7 @@ export default function Entry(props) {
 
         <div className="entry-info">
           <div className="entry-info_map">
-            <img
-              src="src\assets\location-pin.png"
-              alt="local pin"
-              className="marker"
-            />
+            <img src={pinimg} alt="local pin" className="marker" />
             <h4 className="entry-info_countryName">{props.country}</h4>
             <a
               href={props.googleMapsLink}
