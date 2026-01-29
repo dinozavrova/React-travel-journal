@@ -12,7 +12,12 @@ export default function Entry(props) {
               className="marker"
             />
             <h4 className="entry-info_countryName">{props.country}</h4>
-            <a href={props.googleMapsLink} className="entry-info_link">
+            <a
+              href={props.googleMapsLink}
+              className="entry-info_link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               View on Google Maps
             </a>
           </div>
